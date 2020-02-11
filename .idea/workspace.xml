@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23009c00-b16c-488d-bec4-bc4e792e5fb3" name="Default Changelist" comment="" />
+    <list default="true" id="23009c00-b16c-488d-bec4-bc4e792e5fb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/KeysAndRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/ShortestBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/ShortestBridge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +35,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XJXfT4siZawfembbJDdqy9S83e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,19 +66,16 @@
       <recent name="hard" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShortestBrodgeTest.shortestBridgeTest">
-    <configuration name="AngleBetweenHandsOfAClockTest.angleClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KeysAndRoomsTest.keysAndRoomsTest">
+    <configuration name="KeysAndRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.KeysAndRooms" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.AngleBetweenHandsOfAClockTest" />
-      <option name="METHOD_NAME" value="angleClockTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KeysAndRoomsTest.keysAndRoomsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.KeysAndRoomsTest" />
+      <option name="METHOD_NAME" value="keysAndRoomsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShortestBrodgeTest.shortestBridgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
@@ -122,29 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMaxProductTest.treeMaxProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.TreeMaxProductTest" />
-      <option name="METHOD_NAME" value="treeMaxProductTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KeysAndRoomsTest.keysAndRoomsTest" />
+        <item itemvalue="Application.KeysAndRooms" />
         <item itemvalue="JUnit.ShortestBrodgeTest.shortestBridgeTest" />
         <item itemvalue="JUnit.JumpGameIV_BFSTest.jumpTest" />
         <item itemvalue="JUnit.JumpGameIVTest" />
-        <item itemvalue="JUnit.AngleBetweenHandsOfAClockTest.angleClockTest" />
-        <item itemvalue="JUnit.TreeMaxProductTest.treeMaxProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +179,9 @@
       <workItem from="1580844331265" duration="10306000" />
       <workItem from="1580932934850" duration="14908000" />
       <workItem from="1581204311729" duration="26948000" />
-      <workItem from="1581269401423" duration="10013000" />
+      <workItem from="1581269401423" duration="10492000" />
+      <workItem from="1581288191910" duration="813000" />
+      <workItem from="1581393301099" duration="1957000" />
     </task>
     <servers />
   </component>
@@ -182,54 +189,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="214" width="847" height="677" key="#Project_Structure" timestamp="1580769944163">
+    <state x="588" y="214" width="847" height="677" key="#Project_Structure" timestamp="1581288460541">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="214" width="847" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1580769944163" />
+    <state x="588" y="214" width="847" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1581288460541" />
     <state x="746" y="413" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581212402360">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="746" y="413" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1581212402360" />
-    <state width="1807" height="304" key="GridCell.Tab.0.bottom" timestamp="1581287693883">
+    <state width="1558" height="301" key="GridCell.Tab.0.bottom" timestamp="1581395267871">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="304" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581287693883" />
-    <state width="1807" height="304" key="GridCell.Tab.0.center" timestamp="1581287693882">
+    <state width="1558" height="301" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581395267871" />
+    <state width="1558" height="301" key="GridCell.Tab.0.center" timestamp="1581395267871">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="304" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581287693882" />
-    <state width="1807" height="304" key="GridCell.Tab.0.left" timestamp="1581287693881">
+    <state width="1558" height="301" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581395267871" />
+    <state width="1558" height="301" key="GridCell.Tab.0.left" timestamp="1581395267871">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="304" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581287693881" />
-    <state width="1807" height="304" key="GridCell.Tab.0.right" timestamp="1581287693882">
+    <state width="1558" height="301" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581395267871" />
+    <state width="1558" height="301" key="GridCell.Tab.0.right" timestamp="1581395267871">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="304" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581287693882" />
-    <state width="1807" height="355" key="GridCell.Tab.1.bottom" timestamp="1581276843373">
+    <state width="1558" height="301" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581395267871" />
+    <state width="1807" height="355" key="GridCell.Tab.1.bottom" timestamp="1581288170343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581276843373" />
-    <state width="1807" height="355" key="GridCell.Tab.1.center" timestamp="1581276843373">
+    <state width="1807" height="355" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581288170343" />
+    <state width="1807" height="355" key="GridCell.Tab.1.center" timestamp="1581288170342">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581276843373" />
-    <state width="1807" height="355" key="GridCell.Tab.1.left" timestamp="1581276843372">
+    <state width="1807" height="355" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581288170342" />
+    <state width="1807" height="355" key="GridCell.Tab.1.left" timestamp="1581288170342">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581276843372" />
-    <state width="1807" height="355" key="GridCell.Tab.1.right" timestamp="1581276843373">
+    <state width="1807" height="355" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581288170342" />
+    <state width="1807" height="355" key="GridCell.Tab.1.right" timestamp="1581288170343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581276843373" />
+    <state width="1807" height="355" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581288170343" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1580767357515">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580767357515" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581269403505">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581288448510">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581269403505" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581288448510" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1580947979605">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
