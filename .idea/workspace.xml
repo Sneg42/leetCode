@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23009c00-b16c-488d-bec4-bc4e792e5fb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/medium/MinimumPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/medium/MinimumPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/medium/UniquePathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/UniquePathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/leetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/medium/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/medium/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/leetCode.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -66,9 +72,9 @@
       <recent name="Fundomate" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="medium" />
       <recent name="hard" />
       <recent name="easy" />
-      <recent name="medium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hard" />
@@ -77,7 +83,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubsetsTest.subsetsTest">
+  <component name="RunManager" selected="JUnit.SimplifyPathTest.simplyfyPathTest">
     <configuration name="CommissionTest.commissonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
@@ -126,6 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimplifyPathTest.simplyfyPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.SimplifyPathTest" />
+      <option name="METHOD_NAME" value="simplyfyPathTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubsetsTest.subsetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
@@ -142,23 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForAll.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestForAll" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimplifyPathTest.simplyfyPathTest" />
         <item itemvalue="JUnit.SubsetsTest.subsetsTest" />
         <item itemvalue="JUnit.MinimumPathSumTest.minPathTest" />
         <item itemvalue="JUnit.NegativeDaysTest.negativeDaysTest" />
         <item itemvalue="JUnit.CommissionTest.commissonTest" />
-        <item itemvalue="JUnit.TestForAll.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +208,7 @@
       <workItem from="1581531866533" duration="16834000" />
       <workItem from="1581608145810" duration="5535000" />
       <workItem from="1581627913359" duration="500000" />
+      <workItem from="1582662675831" duration="4993000" />
     </task>
     <servers />
   </component>
@@ -211,29 +224,34 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="924" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581539922830" />
-    <state x="746" y="413" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581212402360">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1835" y="361" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582733659087">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state x="1835" y="361" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733659087" />
     <state x="746" y="413" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1581212402360" />
     <state x="820" y="66" width="573" height="972" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581490684436">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="820" y="66" width="573" height="972" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581490684436" />
-    <state width="1558" height="301" key="GridCell.Tab.0.bottom" timestamp="1581614421659">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.bottom" timestamp="1582733881742">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733881742" />
     <state width="1558" height="301" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581614421659" />
-    <state width="1558" height="301" key="GridCell.Tab.0.center" timestamp="1581614421659">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.center" timestamp="1582733881742">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733881742" />
     <state width="1558" height="301" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581614421659" />
-    <state width="1558" height="301" key="GridCell.Tab.0.left" timestamp="1581614421658">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.left" timestamp="1582733881741">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733881741" />
     <state width="1558" height="301" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581614421658" />
-    <state width="1558" height="301" key="GridCell.Tab.0.right" timestamp="1581614421659">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.right" timestamp="1582733881742">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733881742" />
     <state width="1558" height="301" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581614421659" />
     <state width="1558" height="352" key="GridCell.Tab.1.bottom" timestamp="1581575581586">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -251,17 +269,20 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1558" height="352" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581575581586" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1580767357515">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1648" y="150" key="SettingsEditor" timestamp="1582676422600">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state x="1648" y="150" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582676422600" />
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580767357515" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581659982073">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1582662974465">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582662974465" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581659982073" />
-    <state x="876" y="257" width="469" height="590" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581608848686">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1925" y="215" width="409" height="552" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582733673382">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
+    <state x="1925" y="215" width="409" height="552" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1582733673382" />
     <state x="876" y="257" width="469" height="590" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581608848686" />
     <state x="780" y="253" key="run.anything.popup" timestamp="1581609515803">
       <screen x="67" y="27" width="1853" height="1053" />
