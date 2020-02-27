@@ -2,7 +2,7 @@ package medium;
 
 import medium.UniquePath;
 import org.junit.Test;
-import sun.awt.UNIXToolkit;
+
 
 public class UniquePathTest {
     @Test
