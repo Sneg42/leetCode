@@ -33,7 +33,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XJXfT4siZawfembbJDdqy9S83e" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -181,6 +183,7 @@
       <workItem from="1581288191910" duration="813000" />
       <workItem from="1581393301099" duration="2684000" />
       <workItem from="1581445311776" duration="4741000" />
+      <workItem from="1582819493965" duration="794000" />
     </task>
     <servers />
   </component>
@@ -196,21 +199,25 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="746" y="413" width="494" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1853.1053@67.27.1853.1053" timestamp="1581212402360" />
-    <state width="1558" height="301" key="GridCell.Tab.0.bottom" timestamp="1581398808879">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.bottom" timestamp="1582763937469">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1582763937469" />
     <state width="1558" height="301" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581398808879" />
-    <state width="1558" height="301" key="GridCell.Tab.0.center" timestamp="1581398808879">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.center" timestamp="1582763937469">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1582763937469" />
     <state width="1558" height="301" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581398808879" />
-    <state width="1558" height="301" key="GridCell.Tab.0.left" timestamp="1581398808878">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.left" timestamp="1582763937469">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1582763937469" />
     <state width="1558" height="301" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581398808878" />
-    <state width="1558" height="301" key="GridCell.Tab.0.right" timestamp="1581398808879">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1234" height="163" key="GridCell.Tab.0.right" timestamp="1582763937469">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1234" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1582763937469" />
     <state width="1558" height="301" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581398808879" />
     <state width="1807" height="355" key="GridCell.Tab.1.bottom" timestamp="1581288170343">
       <screen x="67" y="27" width="1853" height="1053" />
